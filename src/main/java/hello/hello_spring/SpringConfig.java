@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Bean;
 public class SpringConfig {
     @Bean
     public MemberService memberService() {
+        System.out.println("test");
         return new MemberService(memberRepository());
     }
     @Bean
