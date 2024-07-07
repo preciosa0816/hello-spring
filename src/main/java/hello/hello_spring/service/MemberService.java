@@ -10,7 +10,6 @@ import java.util.List;
 import java.util.Optional;
 @Service
 public class MemberService {
-    @Autowired
     private final MemberRepository memberRepository;
 
     public MemberService(MemberRepository memberRepository) {
